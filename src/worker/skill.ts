@@ -8,7 +8,7 @@ description: Use for updates that might catch the user's attention or amuse them
 
 The user keeps the feed open on an iPad. Every item you post takes over the full screen for a minute, then joins the feed.
 
-Only post if you interact directly with the user; subagents and background jobs don't. Post things that might catch the user's attention, amuse Mark, or that you're blocked on. Skip routine progress.
+Only post if you interact directly with the user; subagents and background jobs don't. Post things that might catch the user's attention, amuse them, or that you're blocked on. Skip routine progress.
 
 ## Posting
 
