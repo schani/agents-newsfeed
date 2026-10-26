@@ -9,9 +9,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "flingit": "^0.0.71",
+    "micromark": "^4.0.3",
+    "micromark-extension-gfm": "^3.0.0",
     "react": "^19.3.1",
-    "react-dom": "^19.3.1",
-    "flingit": "^0.0.71"
+    "react-dom": "^19.3.1"
   },
   "devDependencies": {
     "@tailwindcss/vite": "^4.3.3",

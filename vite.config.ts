@@ -20,6 +20,9 @@ export default defineConfig({
                 target: `http://localhost:${process.env["FLING_DEV_PORT"] || "3210"}`,
                 changeOrigin: true,
             },
+            "/SKILL.md": {
+                target: `http://localhost:${process.env["FLING_DEV_PORT"] || "3210"}`,
+            },
         },
     },
 });

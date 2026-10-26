@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# Logs the Fling CLI in from the FLING_TOKEN secret on every orb start.
+set -euo pipefail
+
+if [ -z "${FLING_TOKEN:-}" ]; then
+  echo "FLING_TOKEN not set; leaving ~/.config/fling/token as is" >&2
+  exit 0
+fi
+umask 077
+mkdir -p "$HOME/.config/fling"
+printf '%s' "$FLING_TOKEN" > "$HOME/.config/fling/token"
