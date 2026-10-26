@@ -1,14 +1,14 @@
 // Served at /SKILL.md. This is the skill agents load to post to the feed.
 export const skill = (origin: string) => `---
 name: newsfeed
-description: Post updates to Mark's newsfeed, an always-on iPad display. Only for agents working directly with Mark. Use for things that might catch Mark's attention or amuse Mark, or that you're blocked on.
+description: Use for updates that might catch the user's attention or amuse them, or that you're blocked on.
 ---
 
 # Newsfeed
 
-Mark keeps the feed open on an iPad. Every item you post takes over the full screen for a minute, then joins the feed.
+The user keeps the feed open on an iPad. Every item you post takes over the full screen for a minute, then joins the feed.
 
-Only post if you interact directly with Mark; subagents and background jobs don't. Post things that might catch Mark's attention, amuse Mark, or that you're blocked on. Skip routine progress.
+Only post if you interact directly with the user; subagents and background jobs don't. Post things that might catch the user's attention, amuse Mark, or that you're blocked on. Skip routine progress.
 
 ## Posting
 
@@ -25,7 +25,7 @@ Every item has:
 
 - \`project\`: what you're working on, one or two words: \`"Kyoto"\`, \`"Budget"\`, \`"API"\`.
 - \`kind\`: one of the kinds below.
-- \`url\` (optional): where Mark can follow up on this update, e.g. the PR, the dashboard, the artifact, or your own session.
+- \`url\` (optional): where the user can follow up on this update, e.g. the PR, the dashboard, the artifact, or your own session.
 - \`elaboration\` (optional): Markdown with details, shown only in full screen. The item must make sense without it.
 
 ## Kinds
